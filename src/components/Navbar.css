@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+ height: 5vh;
+align-items: center;
+width: 100vw;
+ background-color: antiquewhite;
+ 
+ margin: -6px;
+ }
+ .navbar>p{
+  font-size: 30px;
+ }
+ .inp {
+   display: flex;
+   height: min-content;
+   width: 17vw;
+   height: 4vh;
+  margin-left: 30vw;
+  }
+  
