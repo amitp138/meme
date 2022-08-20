@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.photos {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  width: 80%;
+  position: relative;
+  overflow: scroll;
+  margin-top: 10vh;
+}

@@ -1,26 +1,31 @@
-.card{
+.card {
+  border: 1px solid black;
   width: 30vw;
- border: 1px solid black;
- height: 70vh;
- border-radius: 10px;
- margin: 0vh 30vw 10vh 30vw;
+  height: 70vh;
+  border-radius: 10px;
+  margin: 10vh 30vw 10vh 30vw;
+  scroll-snap-align: start;
+  position: relative;
+  background-color: white;
 }
 .memepht {
   width: 28vw;
-    height: 50vh;
-    margin: 2px 2px 5px 3px ;
-  }
-  .image {
-    padding: 10px;
-  }
-  .bottom{
-   display: flex;
-   justify-content: initial;
-  
-
-  }
-  .like>img,.dislike>img,.chat>img,.share>img{
-   height: 20px;
+  height: 50vh;
+  margin: 2px 2px 5px 3px;
+  object-fit: fill;
+}
+.image {
+  padding: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: initial;
+}
+.like > img,
+.dislike > img,
+.chat > img,
+.share > img {
+  height: 20px;
   width: 20px;
-   margin: 10px;
-   }
+  margin: 10px;
+}

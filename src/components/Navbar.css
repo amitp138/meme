@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
- height: 5vh;
+ height: 7vh;
 align-items: center;
+width: 100vw;
 
  background-color: antiquewhite;
  
@@ -9,12 +10,13 @@ align-items: center;
  }
  .navbar>p{
   font-size: 30px;
+  margin: 0 0 0 5vh;
  }
  .inp {
    display: flex;
-   height: min-content;
+   margin: 3vh 2vw 2vh 30vw;
    width: 17vw;
-   height: 4vh;
-  margin-left: 30vw;
+   height: 5vh;
+  
   }
   

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { apiGET } from "../misc/Config";
-import "../App.css";
+import "./Home.css";
 import Navbar from "../components/Navbar";
 import MemeCard from "./MemeCard";
 

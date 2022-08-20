@@ -1,21 +1,25 @@
 .app {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  margin: 0;
   
-  
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+body {
+  margin: 0;
 }
-
-.photos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 30px;
-  justify-content: center;
- 
+body {
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
 }
-
+Body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.app {
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+}
+.app::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
