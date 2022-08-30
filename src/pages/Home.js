@@ -35,7 +35,7 @@ const Home = () => {
       <div className="photos">
         {data.map((value, index) => {
           return (
-            <MemeCard value={value}/> 
+            <MemeCard value={value} key={index}/> 
           );
         })}
       </div>

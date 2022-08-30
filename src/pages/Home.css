@@ -1,13 +1,28 @@
 .container {
   display: flex;
   flex-direction: column;
+  
 }
 
 .photos {
   height: 100vh;
   scroll-snap-type: y mandatory;
-  width: 80%;
+  width: 70%;
+ 
+  
   position: relative;
   overflow: scroll;
   margin-top: 10vh;
+  
+}
+@media screen and (max-width:500px ) {
+  .photos {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+    margin-top: 10vh;
+    
+  }
 }

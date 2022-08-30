@@ -29,3 +29,21 @@
   width: 20px;
   margin: 10px;
 }
+@media screen and (max-width:500px ) {
+  .card {
+    border: 1px solid black;
+    width: 95vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin:10vh 0vw 10vh 0vw;
+    scroll-snap-align: start;
+    position: relative;
+    background-color: white;
+  }
+  .memepht {
+    width: 88vw;
+    height: 50vh;
+    
+    object-fit: fill;
+  }
+}

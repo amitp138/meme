@@ -1,22 +1,57 @@
 .navbar {
   display: flex;
- height: 7vh;
-align-items: center;
-width: 100vw;
+  height: 10vh;
+  align-items: center;
+  width: 100vw;
 
- background-color: antiquewhite;
- 
- margin: -6px;
- }
- .navbar>p{
+  background-color: antiquewhite;
+
+  margin: -6px;
+}
+.navbar > p {
   font-size: 30px;
-  margin: 0 0 0 5vh;
- }
- .inp {
-   display: flex;
-   margin: 3vh 2vw 2vh 30vw;
-   width: 17vw;
-   height: 5vh;
-  
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+.inp {
+  display: flex;
+  align-items: center;
+
+  flex: 3;
+}
+.inp > input {
+  flex: 1.5;
+  height: 4vh;
+}
+.inp > button {
+  height: 5vh;
+}
+.user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5vh;
+  flex: 1.5;
+}
+@media screen and (max-width: 500px) {
+  .user {
+    display: none;
   }
   
+  .inp > input {
+    flex: 2;
+    height: 4vh;
+    margin-left: 2vh;
+  }
+  .inp > button {
+    height: 4.8vh;
+    flex: 0.3;
+  }
+  .inp {
+    display: flex;
+    align-items: center;
+
+    flex: 3;
+  }
+}
